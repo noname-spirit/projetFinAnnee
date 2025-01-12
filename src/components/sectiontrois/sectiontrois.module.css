@@ -1,0 +1,11 @@
+h1,p {
+    font-size: 12px;
+    color: white;
+}
+
+
+.skills {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
