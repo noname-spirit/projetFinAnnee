@@ -9,11 +9,10 @@ export default function Cards({
   members,
 }) {
   return (
-    <div className="cards">
+    <div className="childcards">
       <div className="card">
         <p className=".image">
-          {imageUrl}
-          {imageAlt}
+          <img src={imageUrl} alt={imageAlt} />
         </p>
         <p className="projectName">{projectName} </p>
 
