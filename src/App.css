@@ -117,8 +117,8 @@ p.titre{
 
   width: 100%;
 
-  font-size: 1rem;
-  font-weight: 600;
+
+  
   color: var(--light);
   text-transform: capitalize;
   text-wrap: nowrap;
@@ -135,9 +135,13 @@ p.titre{
   fill: var(--light);
 }
 
+
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 1rem;
   }
+ 
+ 
+  
