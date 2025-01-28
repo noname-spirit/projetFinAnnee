@@ -57,6 +57,12 @@ padding-right: 200px;
 .contenu_container{
   width: 400px;
 }
+ /* ------------- */
+.imgposition{
+  padding-top: 80px;
+  position-area: center;
+}
+
 
 .titre{
   color: black;

@@ -2,7 +2,7 @@ import style from "./sectiontrois.module.css";
 
 export default function Sectiontrois({ sousTitre, span, titre, description }) {
   return (
-    <div className="skills">
+    <div className="skills" id="Competances">
       <div className="skills__container">
         {" "}
         <h2 className="soustitre">
