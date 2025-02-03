@@ -58,6 +58,9 @@ export default function Login() {
           </div>
         </div>
       </div>
+      <div class="flex justify-center">
+        <div class="mt-10 w-3/5 h-1 bg-gray-300"></div>
+      </div>
     </>
   );
 }
