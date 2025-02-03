@@ -6,7 +6,7 @@ export default function SectionUn() {
       <div className=" absolute text-white imgposition ">
         <TypeAnimation
           sequence={[
-            // Same substring at the start will only be typed once, initially
+            // animation texte accueil
             "Il est temps de créer",
             1000,
             "It's time to create",

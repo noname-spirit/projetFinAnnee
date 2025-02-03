@@ -5,11 +5,11 @@ function Sectionsept() {
         Lancez votre <span className="colorred"> projet personnalisé</span> dès
         maintenant !
       </h2>
-      <div className="flex">
+      <div className="flex justify-center pt-3">
         <div>
-          <img class="" src="" alt="flech"></img>
+          <img src="asset/img/pictoFleche.gif" alt="fleche" width={40} />
         </div>
-        <p className="text-3xl ">Demander une proposition gratuite</p>
+        <p className="text-3xl ">&nbsp;Demander une proposition gratuite</p>
       </div>
     </div>
   );

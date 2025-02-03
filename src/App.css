@@ -2,47 +2,25 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
   background-color: #000000;
   min-height: 100vh;
-  display: flex;
-   flex-direction: column; 
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
 
 .item{
   width: 100%;
   background-color: white;
 
-  
- 
+
+
 }
 .item_container{
   width: 70%;
@@ -77,16 +55,6 @@ padding-right: 200px;
  margin:20px 0px;
 }
 
-.skills{
-  width: 100%;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  align-content: flex-end;
-  flex-wrap: wrap;
-  
-}
 
 .skills__container{
   width: 250px;
@@ -116,6 +84,31 @@ p.titre{
 
 }
 
+
+/* section trois  */
+.space-holder {
+  width: 100%;
+  background: transparent;
+}
+
+.horizontal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.sticky {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  min-width: 100vw;
+}
+
+
 /* ---------------- Cards--------------- */
 
 .projectName {
@@ -124,7 +117,7 @@ p.titre{
   width: 100%;
 
 
-  
+
   color: var(--light);
   text-transform: capitalize;
   text-wrap: nowrap;
@@ -148,9 +141,9 @@ p.titre{
   gap: 1rem;
   padding: 1rem;
   }
- 
- 
-  
+
+
+
 /* --------- section 7---------- */
 .colorred{
   color: #C00303;

@@ -13,9 +13,12 @@ function Cardsfilter() {
         </p>
       </div>
       <div>
-        <p className=" text-black text-base font-extrabold flex-initial w-64">
+        <p>
+          {" "}
+          className=" text-black text-base font-extrabold flex-initial w-64"
           filter will be here{" "}
         </p>
+
         <p></p>
       </div>
     </div>
