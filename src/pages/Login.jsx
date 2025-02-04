@@ -53,9 +53,6 @@ export default function Login() {
               login
             </button>
           </div>
-          <div>
-            <p>mot de passe oublié </p>
-          </div>
         </div>
       </div>
       <div class="flex justify-center">
