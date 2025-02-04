@@ -1,6 +1,9 @@
-export default function Navbar() {
+import { useState } from "react";
+import Modal from "../modal/Modal";
+
+export default function Navbar({ setIsOpen }) {
   return (
-    <nav class="bg-white dark:bg-black fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 ">
+    <nav className="bg-white dark:bg-black fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 ">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="asset/img/nns_logo_nav.png" class="h-20" alt="" />
@@ -11,9 +14,12 @@ export default function Navbar() {
           <button
             type="button"
             class="text-white bg-red-800 hover:bg-red-950 focus:ring-4 focus:outline-none focus:ring-red-500 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-red-700 dark:hover:bg-red-950 dark:focus:ring-red-500"
+            onClick={() => setIsOpen(true)}
+            className="text-white bg-red-800 hover:bg-red-950 focus:ring-4 focus:outline-none focus:ring-red-500 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-red-700 dark:hover:bg-red-950 dark:focus:ring-red-500"
           >
             login/sign-in
           </button>
+
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
@@ -79,6 +85,7 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
+    
     </nav>
   );
 }
